@@ -1,0 +1,67 @@
+# Dependencies (each lesson installs its own)
+node_modules/
+
+# Build output (Vite / bundlers)
+dist/
+dist-ssr/
+build/
+out/
+.vite/
+.cache/
+.parcel-cache/
+.turbo/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment and local overrides
+.env
+.env.*
+!.env.example
+*.local
+
+# Test / coverage
+coverage/
+.nyc_output/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editors / IDEs
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# VS Code / Cursor — keep shared recommendations if you add them
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Blender autosaves (keep the .blend files you actually work on)
+*.blend1
+*.blend2
+
+# Misc
+*.tmp
+*.temp
+.eslintcache
+.stylelintcache
